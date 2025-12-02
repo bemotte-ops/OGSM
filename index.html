@@ -3,168 +3,162 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex" />
-  <title>OGSM — Адаптивная система стратегического управления</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Диагностика бизнеса | Консалтинг Игоря Майоркина</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header class="hero">
-    <div class="container">
-      <h1>Адаптивная система стратегического управления OGSM</h1>
-      <p>От долгосрочного видения — к действиям каждого сотрудника. От хаоса — к управляемому росту.</p>
+  <!-- Блок 1: О нас -->
+  <section id="about" class="block">
+    <h1>О нас</h1>
+    <p><strong>Основатель и лидер проекта — Майоркин Игорь</strong>, практикующий стратег и управленец с 20-летним опытом во главе компаний с оборотом до $1 млрд (Carlsberg Group). Он лично создал и вывел в лидеры крафтовое направление Carlsberg, внедрял проекты совместно с McKinsey и BCG, а также выстроил систему адаптивного управления OGSM для гарантированного достижения стратегических целей.</p>
+    <p>Для решения конкретных задач клиентов привлекается команда высокопрофессиональных менеджеров по всем функциональным направлениям — HR, финансы, логистика, продажи, маркетинг, ИТ — с успешным опытом в крупном и среднем бизнесе в различных сферах.</p>
+    <p><strong>Философия проекта:</strong> Мы не верим в разовые советы. Мы строим «антихрупкие» компании, способные стабильно расти в условиях неопределенности. Наша философия — это управляемая комплексная трансформация, которая связывает долгосрочную стратегию, операционные процессы и цифровые технологии в единую живую систему. Мы предоставляем не просто рекомендации, а полноценное внедрение решений «под ключ».</p>
+  </section>
+
+  <!-- Блок 2: Критерии стабильности -->
+  <section id="stability" class="block">
+    <h2>Почему бизнес «застревает» — и как этого избежать</h2>
+    <p>Даже при росте выручки компания может сталкиваться с «стеклянным потолком»: цели не достигаются, решения принимаются наобум, команды разобщены. Это признаки отсутствия <strong>адаптивной системы стратегического управления</strong>.</p>
+    <p>Мы выделили 6 ключевых критериев устойчивого роста:</p>
+    <ul>
+      <li><strong>Синхронизация</strong> — все уровни работают на единые цели.</li>
+      <li><strong>Адаптивность</strong> — быстрая корректировка тактики без потери стратегии.</li>
+      <li><strong>Слаженность</strong> — департаменты как единый механизм.</li>
+      <li><strong>Скорость</strong> — быстрый запуск идей и реакция на отклонения.</li>
+      <li><strong>Эффективность</strong> — снижение потерь через тестирование перед масштабированием.</li>
+      <li><strong>Прозрачность</strong> — ясная картина рисков, ресурсов и прогресса.</li>
+    </ul>
+    <p>Если хотя бы 2–3 пункта вызывают сомнения — пришло время провести <strong>независимый аудит</strong>. Это как «медицинский чек-ап» для бизнеса.</p>
+  </section>
+
+  <!-- Блок 3: Опросник -->
+  <section id="quiz" class="block">
+    <h2>Пройдите диагностику бизнеса (2–3 минуты)</h2>
+    <p>Ответьте на 12 вопросов — и узнайте, какие системы управления помогут вашей компании выйти на новый уровень.</p>
+    <form id="diagnosticForm">
+      <!-- Вопросы 1–7: бизнес -->
+      <div class="question">
+        <p><strong>1. Как в вашей компании обычно реализуются новые проекты или стратегические инициативы?</strong></p>
+        <label><input type="radio" name="q1" value="1A" required> По четкому годовому плану — отклонения минимальны, приоритеты определены надолго</label>
+        <label><input type="radio" name="q1" value="1B"> Мы пробуем много идей, но не все "взлетают" — сложно доводить до результата</label>
+        <label><input type="radio" name="q1" value="1C"> Есть четкий фокус на 2-3 главных направления — гибко распределяем ресурсы между ними</label>
+        <label><input type="radio" name="q1" value="1D"> Точечные решения под задачи — нет единой системы управления проектами</label>
+      </div>
+      <div class="question">
+        <p><strong>2. Как строится взаимодействие с ключевыми клиентами или партнерами?</strong></p>
+        <label><input type="radio" name="q2" value="2A" required> В основном транзакционно — обсуждаем конкретные сделки и условия</label>
+        <label><input type="radio" name="q2" value="2B"> Стараемся выстраивать долгосрочные отношения — но нет системного подхода</label>
+        <label><input type="radio" name="q2" value="2C"> Совместно планируем развитие — есть партнерские программы и общие цели</label>
+        <label><input type="radio" name="q2" value="2D"> Каждый менеджер строит отношения по-своему — зависит от личности</label>
+      </div>
+      <div class="question">
+        <p><strong>3. Где больше всего времени теряют ваши сотрудники (включая руководство)?</strong></p>
+        <label><input type="radio" name="q3" value="3A" required> В согласованиях и ожидании решений — много встреч, но мало действий</label>
+        <label><input type="radio" name="q3" value="3B"> В рутинной работе с документами — поиск, проверка, перенос данных</label>
+        <label><input type="radio" name="q3" value="3C"> В решении внезапных проблем — "тушим пожары" вместо развития</label>
+        <label><input type="radio" name="q3" value="3D"> В сборе информации для отчетов — данные разрознены</label>
+      </div>
+      <div class="question">
+        <p><strong>4. Когда вы в последний раз кардинально меняли подход к работе с клиентами?</strong></p>
+        <label><input type="radio" name="q4" value="4A" required> В этом году — постоянно тестируем новое</label>
+        <label><input type="radio" name="q4" value="4B"> Несколько лет назад — работаем по проверенной схеме</label>
+        <label><input type="radio" name="q4" value="4C"> Планируем изменения — но не знаем с чего начать</label>
+        <label><input type="radio" name="q4" value="4D"> Клиенты разные — подход индивидуальный</label>
+      </div>
+      <div class="question">
+        <p><strong>5. Как вы принимаете решения о развитии продуктов или услуг?</strong></p>
+        <label><input type="radio" name="q5" value="5A" required> На основе данных и экспериментов — тестируем гипотезы</label>
+        <label><input type="radio" name="q5" value="5B"> По решению руководства — опыт и интуиция</label>
+        <label><input type="radio" name="q5" value="5C"> Изучаем конкурентов — повторяем успешное</label>
+        <label><input type="radio" name="q5" value="5D"> По запросам ключевых клиентов</label>
+      </div>
+      <div class="question">
+        <p><strong>6. Что происходит, когда проект сталкивается с серьезным препятствием?</strong></p>
+        <label><input type="radio" name="q6" value="6A" required> Быстро перестраиваемся — пробуем другой подход</label>
+        <label><input type="radio" name="q6" value="6B"> Собираем совещания — ищем виноватых</label>
+        <label><input type="radio" name="q6" value="6C"> Эскалируем руководству — ждем решения</label>
+        <label><input type="radio" name="q6" value="6D"> Анализируем системно — устраняем причину</label>
+      </div>
+      <div class="question">
+        <p><strong>7. Как вы оцениваете эффективность бизнеса?</strong></p>
+        <label><input type="radio" name="q7" value="7A" required> По финансовым показателям — прибыль, выручка</label>
+        <label><input type="radio" name="q7" value="7B"> По выполнению планов — KPI сотрудников</label>
+        <label><input type="radio" name="q7" value="7C"> По динамике ключевых процессов — автоматические дашборды</label>
+        <label><input type="radio" name="q7" value="7D"> По удовлетворенности клиентов — NPS, лояльность</label>
+      </div>
+
+      <!-- Вопросы 8–12: финансы -->
+      <div class="question">
+        <p><strong>8. Как вы получаете информацию для принятия ключевых управленческих решений?</strong></p>
+        <label><input type="radio" name="q8" value="8A" required> Из регулярных управленческих отчетов (ОПУ, ДДС, прогнозы)</label>
+        <label><input type="radio" name="q8" value="8B"> Запрашиваем данные у бухгалтерии по мере необходимости</label>
+        <label><input type="radio" name="q8" value="8C"> Полагаемся на операционные данные и интуицию</label>
+        <label><input type="radio" name="q8" value="8D"> Используем единую BI-систему или дашборды</label>
+      </div>
+      <div class="question">
+        <p><strong>9. Как организовано управление денежными потоками (казначейство)?</strong></p>
+        <label><input type="radio" name="q9" value="9A" required> Есть платежный календарь и система прогнозирования</label>
+        <label><input type="radio" name="q9" value="9B"> Контролируем по факту — иногда возникают срочные потребности</label>
+        <label><input type="radio" name="q9" value="9C"> Это забота бухгалтера/гендиректора</label>
+        <label><input type="radio" name="q9" value="9D"> Автоматизировано через интеграцию 1С/банк-клиентов</label>
+      </div>
+      <div class="question">
+        <p><strong>10. Насколько ваша финансовая команда загружена рутинной работой?</strong></p>
+        <label><input type="radio" name="q10" value="10A" required> Есть время на анализ — автоматизировали основные процессы</label>
+        <label><input type="radio" name="q10" value="10B"> Постоянно заняты обработкой документов и ответами</label>
+        <label><input type="radio" name="q10" value="10C"> Справляются, но всё в ручном режиме (Excel)</label>
+        <label><input type="radio" name="q10" value="10D"> Нет отдельной финансовой команды — бухгалтер на аутсорсе</label>
+      </div>
+      <div class="question">
+        <p><strong>11. Когда вы в последний раз проводили аудит финансовых процессов?</strong></p>
+        <label><input type="radio" name="q11" value="11A" required> В последние 6-12 месяцев — это регулярная практика</label>
+        <label><input type="radio" name="q11" value="11B"> Несколько лет назад — при внедрении 1С</label>
+        <label><input type="radio" name="q11" value="11C"> Никогда не проводили системно</label>
+        <label><input type="radio" name="q11" value="11D"> Постоянно видим проблемы, но нет ресурса на решение</label>
+      </div>
+      <div class="question">
+        <p><strong>12. Готовы ли финансы компании к масштабированию или инвестициям?</strong></p>
+        <label><input type="radio" name="q12" value="12A" required> Уверены — учет прозрачен, процессы задокументированы</label>
+        <label><input type="radio" name="q12" value="12B"> Есть сомнения — инвесторы могут задать неудобные вопросы</label>
+        <label><input type="radio" name="q12" value="12C"> Это станет проблемой — финансы не структурированы</label>
+        <label><input type="radio" name="q12" value="12D"> Не задумывались — вопрос встанет по факту</label>
+      </div>
+    </form>
+    <button id="submitQuiz" class="btn">Получить рекомендации</button>
+  </section>
+
+  <!-- Блок 4: Рекомендации -->
+  <section id="recommendations" class="block" style="display:none;">
+    <h2>Ваш персональный отчёт</h2>
+    <div id="resultText"></div>
+    <div id="productDetails" style="display:none; margin-top: 30px;">
+      <h3 id="productTitle"></h3>
+      <div id="productContent"></div>
     </div>
-  </header>
-
-  <main class="container">
-
-    <!-- Section 1: Суть продукта -->
-    <section class="block">
-      <div class="content">
-        <div class="subheader">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0YTVhZjQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgMjJjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHMtNC40NzctMTAtMTAtMTAtNC40NzcgNC40NzctMTAgMTAgNC40NzcgMTAgMTAgMTB6Ij48L3BhdGg+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMyI+PC9jaXJjbGU+PC9zdmc+" alt="Иконка" />
-          <h2>Что это?</h2>
-        </div>
-        <p>OGSM — это не просто методология, а «живая» система управления компанией. Её суть — в создании эффективной связки между долгосрочным видением (3–5 лет) и ежедневными действиями каждого сотрудника через прозрачные стратегические инициативы, KPI и регулярный трекинг.</p>
-        <p>Это «нервная система» организации, обеспечивающая фокус, гибкость и полную управляемость на пути к амбициозным целям.</p>
-      </div>
-      <div class="image">
-        <img src="images/strategy-vision.jpg" alt="Стратегическое видение">
-      </div>
-    </section>
-
-    <!-- Section 2: Боль и вызов -->
-    <section class="block reverse">
-      <div class="content">
-        <div class="subheader">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNlNjM5NDYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgOS41djIuNSI+PC9wYXRoPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjkiPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiPjwvY2lyY2xlPjwvc3ZnPg==" alt="Иконка" />
-          <h2>Почему это актуально?</h2>
-        </div>
-        <div class="subblocks">
-          <div class="subblock">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2Njc1ODkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjEgMTVsLTYtNi02IDYiPjwvcGF0aD48cGF0aCBkPSJNMTUgOS41VjMiPjwvcGF0aD48L3N2Zz4=" alt="Стратегия на бумаге" />
-            <p><strong>Стратегия на бумаге:</strong> Инициативы не взлетают, ответственность перекладывается, лидеры выгорают.</p>
-          </div>
-          <div class="subblock">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2Njc1ODkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCI+PC9jaXJjbGU+PHBhdGggZD0iTTE0LjUgOC41bDEuNSAxLjVNNy41IDguNWwxLjUtMS41Ij48L3BhdGg+PHBhdGggZD0iTTEyIDIyYzUuNSAwIDEwLTQuNSAxMC0xMHMtNC41LTEwLTEwLTEwLTEwIDQuNS0xMCAxMCA0LjUgMTAgMTAgMTB6Ij48L3BhdGg+PC9zdmc+" alt="Слепота руководства" />
-            <p><strong>Слепота руководства:</strong> Гендиректор не видит причин сбоев и не знает, куда приложить усилие.</p>
-          </div>
-          <div class="subblock">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2Njc1ODkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTJoLTRsMi41LTMuNUwxNC41IDhsLTIuNSAzLjVhMiAyIDAgMCAwIDEuNSAxLjVIMTBhMiAyIDAgMCAwIDIgMnY2Ij48L3BhdGg+PC9zdmc+" alt="Культура оправданий" />
-            <p><strong>Культура оправданий:</strong> Команда объясняет неудачи, а не добивается успеха.</p>
-          </div>
-          <div class="subblock">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2Njc1ODkiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSI1IiBjeT0iMTIiIHI9IjQiPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjE5IiBjeT0iMTIiIHI9IjQiPjwvY2lyY2xlPjwvc3ZnPg==" alt="Разобщённость" />
-            <p><strong>Разобщённость:</strong> Нет единого понимания целей; сотрудники не вовлечены.</p>
-          </div>
-        </div>
-      </div>
-      <div class="image">
-        <img src="images/leadership.jpg" alt="Проблемы в управлении">
-      </div>
-    </section>
-
-    <!-- Section 3: Решение + Timeline -->
-    <section class="block">
-      <div class="content">
-        <div class="subheader">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMzOGM5YTQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgMjJjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHMtNC40NzctMTAtMTAtMTAtNC40NzcgNC40NzctMTAgMTAgNC40NzcgMTAgMTAgMTB6Ij48L3BhdGg+PHBhdGggZD0iTTkgMTJsNi02LTYiPjwvcGF0aD48L3N2Zz4=" alt="Иконка" />
-          <h2>Как мы это решаем?</h2>
-        </div>
-
-        <div class="timeline">
-          <div class="timeline-step">
-            <div class="step-icon">1</div>
-            <div class="step-text">Прозрачный механизм управления, как в современном автосервисе.</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-icon">2</div>
-            <div class="step-text">Сквозной фокус: все подразделения работают на единые цели.</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-icon">3</div>
-            <div class="step-text">Лидеры инициатив получают полномочия и ресурсы.</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-icon">4</div>
-            <div class="step-text">Ежемесячный трекинг перед советом директоров + командные сессии.</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-icon">5</div>
-            <div class="step-text">Менторинг: one-to-one встречи с гендиректором и консультантом.</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-icon">6</div>
-            <div class="step-text">Гибкая корректировка стратегии: быстро закрываем провалы, усиливаем успехи.</div>
-          </div>
-        </div>
-      </div>
-      <div class="image">
-        <img src="images/tracking.jpg" alt="Ежемесячный трекинг">
-      </div>
-    </section>
-
-    <!-- Section 4: Результат -->
-    <section class="block reverse">
-      <div class="content">
-        <div class="subheader">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMzOGM5YTQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgMjJjNS41MjMgMCAxMC00LjQ3NyAxMC0xMHMtNC40NzctMTAtMTAtMTAtNC40NzcgNC40NzctMTAgMTAgNC40NzcgMTAgMTAgMTB6Ij48L3BhdGg+PHBhdGggZD0iTTggMTJsNC02IDQtNiI+PC9wYXRoPjwvc3ZnPg==" alt="Иконка" />
-          <h2>Ключевые выгоды для бизнеса</h2>
-        </div>
-        <div class="benefits-grid">
-          <div class="benefit">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1YzY3ZjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCI+PC9jaXJjbGU+PHBhdGggZD0iTTcuNSAxNC41bDQuNS0zIDQtMyI+PC9wYXRoPjwvc3ZnPg==" alt="Культурная трансформация" />
-            <h3>Культурная трансформация</h3>
-            <p>Формируется среда, где ценятся результат, прозрачность и ответственность.</p>
-          </div>
-          <div class="benefit">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1YzY3ZjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTQgMTBhMiAyIDAgMCAxIDItMiAyIDIgMCAwIDEtMi0yIj48L3BhdGg+PHBhdGggZD0iTTEwIDE0YTQgNCAwIDEgMCA0IDRhNCA0IDAgMCAwLTQtNCI+PC9wYXRoPjwvc3ZnPg==" alt="Ускорение" />
-            <h3>Ускорение</h3>
-            <p>Сроки внедрения инноваций — до **−50%**.</p>
-          </div>
-          <div class="benefit">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1YzY3ZjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iMjAiIGhlaWdodD0iMTYiIHJ4PSIyIj48L3JlY3Q+PHBhdGggZD0iTTEyIDd2NiI+PC9wYXRoPjwvc3ZnPg==" alt="Эффективность" />
-            <h3>Эффективность</h3>
-            <p>Операционные потери — до **−20%**. Успешность проектов: **+400%** (с 10% до 50%).</p>
-          </div>
-          <div class="benefit">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1YzY3ZjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTYgMjBoLTRsMi41LTMuNUwxMC41IDEybC0yLjUgMy41SDQiPjwvcGF0aD48L3N2Zz4=" alt="Рост прибыльности" />
-            <h3>Рост прибыльности</h3>
-            <p>Масштабирование с ростом маржинальности до **+200%**.</p>
-          </div>
-        </div>
-        <p class="highlight">Главный результат — превращение компании в «Команду Победителей», которая верит в цели и умеет их достигать.</p>
-      </div>
-      <div class="image">
-        <img src="images/results.jpg" alt="Результаты бизнеса">
-      </div>
-    </section>
-
-    <!-- Section 5: Кейс -->
-    <section class="block">
-      <div class="content">
-        <div class="subheader">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1YzY3ZjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAgMTJoLTRsMi41LTMuNUwxNC41IDhsLTIuNSAzLjVhMiAyIDAgMCAwIDEuNSAxLjVIMTBhMiAyIDAgMCAwIDIgMnY2Ij48L3BhdGg+PC9zdmc+" alt="Иконка" />
-          <h2>Пример успешной реализации</h2>
-        </div>
-        <p><strong>Задача:</strong> Крафтовые бренды «Хоппи Юнион» не могли масштабироваться через дистрибуцию «Балтики» из-за организационных и технологических барьеров.</p>
-        <p><strong>Решение:</strong> Внедрена инициатива «Развитие неиндустриального портфеля» с сильным лидером внутри «Балтики».</p>
-        <p><strong>Итог:</strong> OGSM выступила «переводчиком». Произведены изменения в оснащении пивоварен. Масштабирование запущено. Прибыльность — **+200%**.</p>
-        <p class="quote">OGSM позволяет перейти к проактивной модели бизнеса: тренды создаются компанией, а не догоняются ею.</p>
-      </div>
-      <div class="image">
-        <img src="images/case-baltika.jpg" alt="Кейс Балтика">
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 OGSM Strategy. Доступно только по прямой ссылке.</p>
+    <div style="margin-top: 20px;">
+      <button id="showAllProducts" class="btn">Показать все продукты</button>
     </div>
-  </footer>
+  </section>
 
+  <!-- Блок 5: Все продукты -->
+  <section id="allProducts" class="block" style="display:none;">
+    <h2>Наши услуги</h2>
+    <div id="productsList"></div>
+    <button id="backToRecommendations" class="btn" style="margin-top: 20px;">Вернуться к рекомендациям</button>
+  </section>
+
+  <!-- Блок 6: Запись на консультацию -->
+  <section id="consultation" class="block">
+    <h2>Хотите обсудить результаты лично?</h2>
+    <p>Запишитесь на бесплатную 30-минутную онлайн-консультацию — и получите конкретные шаги для вашего бизнеса.</p>
+    <!-- Интеграция с Яндекс Календарём -->
+    <a href="https://calendar.yandex.ru/meet/" target="_blank" class="btn" id="bookingBtn">Записаться на консультацию</a>
+    <!-- Если используете Google Calendar — замените на вашу ссылку: -->
+    <!-- <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Консультация" target="_blank" class="btn">Записаться</a> -->
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
